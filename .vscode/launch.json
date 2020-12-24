@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    {
+        "name": "Flutter",
+        "request": "launch",
+        "type": "dart"
+    },
+    {
+      "name": "Celular",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "2bda065"
+    },
+    {
+      "name": "Tablet",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "ROWM700Q39J"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "All Devices",
+      "configurations": ["Celular", "Tablet"]
+    }
+  ]
+
+}
